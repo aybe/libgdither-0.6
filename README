@@ -1,0 +1,24 @@
+libgdither: a library for applying dithering to PCM audio sources.
+
+This code is (c) Steve Harris 2001-2004 and released under the GNU Public
+Licence. Details may be found in the file COPYING.
+
+http://plugin.org.uk/libgdither/
+
+
+Libgdither is a GPL'd library library for performing audio dithering on 
+PCM samples. The dithering process should be carried out before reducing 
+the bit width of PCM audio data (eg. float to 16 bit int conversions) to 
+preserve audio quality.
+
+It can do conversions between any combination of:
+
+in                              out (optionally interleaved)
+-------------------------------------------------------------
+normalised mono float           8bit unsigned ints
+normalised mono double          16bit signed ints
+                                32bit signed ints
+                                normalised float
+                                normalised double
+
+At any bitdepth supported by the input and output formats

@@ -1,0 +1,9 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libgdither
+Version: 0.6
+Description: A library for applying dithering to PCM audio sources
+Libs: -L${libdir} -lgdither -lm
+Cflags: -I${includedir}
