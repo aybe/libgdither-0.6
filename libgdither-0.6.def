@@ -1,0 +1,7 @@
+LIBRARY
+
+EXPORTS
+	gdither_new
+	gdither_free
+	gdither_runf
+	gdither_run
