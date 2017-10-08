@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gdither.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gdither.h" />
+    <ClInclude Include="gdither_types.h" />
+    <ClInclude Include="gdither_types_internal.h" />
+    <ClInclude Include="noise.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{70FA2F1D-98EC-41C3-8129-A56531DB89B8}</ProjectGuid>
